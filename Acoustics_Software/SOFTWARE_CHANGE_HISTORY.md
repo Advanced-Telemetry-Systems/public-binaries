@@ -1,6 +1,6 @@
 # Software Version History — ATS Triton Receiver Interface
 
-**Current release:** v1.28 (August 2026)
+**Current release:** v1.27
 
 **Last updated:** October 2026
 
@@ -13,23 +13,15 @@ filters are summarized here and described in full in the companion document,
 **Detection Filter History**.
 
 > **A note on version numbers.** Releases use a two-digit minor number: v1.16
-> is "one point sixteen", v1.28 is "one point twenty-eight". There has never
+> is "one point sixteen", v1.27 is "one point twenty-seven". There has never
 > been a v1.6 or v1.06.
 
 ---
 
-## v1.28 — August 2026
-
-- Fixed a USB driver check that showed a "contact ATS" message during
-  installation even when the driver had installed correctly.
-- Renamed the firmware download list's "Last Modified" column to
-  **Release date**.
-- No changes to filter behavior.
-
 ## v1.27 — June–July 2026
 
 A correctness release. Several changes fix real data and communication errors.
-**We recommend all users update to v1.27 or later.**
+**We recommend all users update to v1.27.**
 
 **Detection filters**
 

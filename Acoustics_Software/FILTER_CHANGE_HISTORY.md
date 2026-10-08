@@ -1,6 +1,6 @@
 # Detection Filter History — ATS Triton Receiver Interface
 
-**Applies to:** Triton Receiver Interface v1.16 and later
+**Applies to:** Triton Receiver Interface v1.16 through v1.27
 
 **Last updated:** October 2026
 
@@ -64,7 +64,7 @@ Filters accept both file types the system produces:
 ## Part 2 — What changed, by version
 
 > **A note on version numbers.** Releases use a two-digit minor number:
-> v1.16 is "one point sixteen", v1.28 is "one point twenty-eight". There has
+> v1.16 is "one point sixteen", v1.27 is "one point twenty-seven". There has
 > never been a v1.6 or v1.06.
 
 ### v1.16 — October 2025
@@ -100,7 +100,7 @@ First release with filtering.
 
 A correctness release. Several of these were genuine data errors, not cosmetic
 changes. **If you produced corrected timestamps with v1.23–v1.26, reprocess
-those files with v1.27 or later.**
+those files with v1.27.**
 
 - **Files with more than one time marker were reconstructed incorrectly.** In a
   file containing several receiver time markers, the software could attach
@@ -132,11 +132,6 @@ those files with v1.27 or later.**
   | Run Through filters after verifying | Correct Tag Times |
 
 - Added the **About** button in the Filter Options dialog.
-
-### v1.28 — August 2026
-
-No changes to filter behavior. Fixes and label cleanup elsewhere in the
-software.
 
 ---
 
